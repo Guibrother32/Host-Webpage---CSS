@@ -72,6 +72,11 @@ main {
 
     .testimonial__image-container {
       width: 66%;
+      transform: skew(20deg);
+      overflow: hidden;
+    }
+    .testimonial__image{
+      transform: skew(-20deg) scale(1.3);
     }
 
     .testimonial__info {
